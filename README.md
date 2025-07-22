@@ -15,46 +15,47 @@ Location
 
 The goal of this project is to assist HR professionals, job seekers, and analysts in estimating fair compensation using real-world features.
 
-🧾 Dataset Information
+🧾 Dataset Information:
 Total Records: 376 rows
 
 Total Features: 6 columns
 
 Columns:
 
-Age (Numeric)
+1.Age (Numeric)
 
-Education Level (Categorical)
+2.Education Level (Categorical)
 
-Job Title (Categorical)
+3.Job Title (Categorical)
 
-Years of Experience (Numeric)
+4.Years of Experience (Numeric)
 
-Location (Categorical)
+5.Location (Categorical)
 
-Salary (Target variable - Numeric)
+6.Salary (Target variable - Numeric)
 
 The dataset was preprocessed by handling missing values, encoding categorical features, and normalizing input where needed.
 
-🔧 Tech Stack
-Python 3.x
+🔧 Tech Stack:
 
-Pandas & NumPy
+. Python 3.x
 
-Scikit-learn
+. Pandas & NumPy
 
-Streamlit
+. Scikit-learn
 
-Matplotlib / Seaborn (for optional visualization)
+. Streamlit
 
-📈 Model Training
-Model used: Random Forest Regressor
+. Matplotlib / Seaborn (for optional visualization)
 
-Features selected based on correlation and domain knowledge.
+📈 Model Training:
+----Model used: Random Forest Regressor
 
-Trained and saved using joblib.
+-----Features selected based on correlation and domain knowledge.
 
-📍 Output
+----Trained and saved using joblib.
+
+📍 Output:-
 Predicted salary displayed based on user input.
 
 Streamlit app provides a friendly interface for real-time predictions.
