@@ -13,6 +13,8 @@ Years of Experience
 
 Location
 
+<img width="1043" height="858" alt="Screenshot 2025-07-22 220422" src="https://github.com/user-attachments/assets/5df5c756-8d21-4caf-ba9f-da180bd630c0" />
+
 The goal of this project is to assist HR professionals, job seekers, and analysts in estimating fair compensation using real-world features.
 
 🧾 Dataset Information:
@@ -59,3 +61,5 @@ The dataset was preprocessed by handling missing values, encoding categorical fe
 Predicted salary displayed based on user input.
 
 Streamlit app provides a friendly interface for real-time predictions.
+
+
