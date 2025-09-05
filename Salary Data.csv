@@ -3,13 +3,3 @@ Download the csv file from this kaggle dataset:
 
      https://www.kaggle.com/datasets/rkiattisak/salaly-prediction-for-beginer
 
-import pandas as pd
-
-# Load your dataset
-df = pd.read_csv(r"C:\Users\SANJANA\Downloads\Salary Data.csv")
-
-# Check structure
-print(df.head())
-print(df.info())
-print("Dataset shape:", df.shape)
-print(df.Gender.value_counts())
