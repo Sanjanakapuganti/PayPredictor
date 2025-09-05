@@ -1,10 +1,10 @@
 
 import streamlit as st
 import pandas as pd
-import joblib
+#import joblib
 
 # Load trained model
-model = joblib.load("salary_predictor.pkl")
+#model = joblib.load("salary_predictor.pkl")
 
 # Streamlit UI
 st.title("💼 Employee Salary Prediction App")
